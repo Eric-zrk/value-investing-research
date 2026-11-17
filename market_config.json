@@ -1,0 +1,8 @@
+{
+  "max_dynamic_pe": 25,
+  "max_pb": 3,
+  "min_amount": 10000000,
+  "min_revenue_growth": 0,
+  "min_profit_growth": 0,
+  "min_roe": 8
+}

@@ -1,0 +1,33 @@
+{
+  "minimum_quality": 64,
+  "min_core_ratio": 0.8,
+  "min_profit_yoy": -0.1,
+  "max_liability_ratio": 0.5,
+  "min_cash_conversion": 1,
+  "required_margin": 0.3,
+  "require_below_conservative": false,
+  "max_quote_age_days": 7,
+  "scenarios": [
+    {
+      "name": "保守",
+      "growth": 0,
+      "payout": 0.5,
+      "exit_pe": 8,
+      "discount": 0.12
+    },
+    {
+      "name": "基准",
+      "growth": 0.03,
+      "payout": 0.6,
+      "exit_pe": 12,
+      "discount": 0.1
+    },
+    {
+      "name": "乐观",
+      "growth": 0.05,
+      "payout": 0.65,
+      "exit_pe": 15,
+      "discount": 0.1
+    }
+  ]
+}

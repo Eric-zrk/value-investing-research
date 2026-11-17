@@ -1,0 +1,11 @@
+{
+  "dividend_years": 20,
+  "dividend_stability": 15,
+  "dividend_growth": 10,
+  "dividend_streak": 5,
+  "profit_years": 20,
+  "profit_growth": 10,
+  "profit_streak": 5,
+  "cfo_years": 10,
+  "fcf_years": 5
+}

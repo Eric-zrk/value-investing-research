@@ -1,0 +1,43 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Downloaded data, caches, analysis outputs and old backups
+/data/
+/分析结果/
+/历史文件/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Local secrets and private settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

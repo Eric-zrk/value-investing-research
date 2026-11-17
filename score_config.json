@@ -1,0 +1,182 @@
+{
+  "version": "2.0.0-basic",
+  "metrics": {
+    "revenue_growth": {
+      "weight": 8,
+      "cuts": [
+        0,
+        0.03,
+        0.06,
+        0.1,
+        0.15
+      ],
+      "direction": "up"
+    },
+    "profit_growth": {
+      "weight": 8,
+      "cuts": [
+        0,
+        0.03,
+        0.06,
+        0.1,
+        0.15
+      ],
+      "direction": "up"
+    },
+    "profit_years": {
+      "weight": 8,
+      "cuts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction": "up"
+    },
+    "cash_conversion": {
+      "weight": 14,
+      "cuts": [
+        0,
+        0.5,
+        0.8,
+        1,
+        1.2
+      ],
+      "direction": "up"
+    },
+    "cfo_years": {
+      "weight": 8,
+      "cuts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction": "up"
+    },
+    "liability_ratio": {
+      "weight": 10,
+      "cuts": [
+        0.2,
+        0.35,
+        0.5,
+        0.65,
+        0.8
+      ],
+      "direction": "down"
+    },
+    "roa": {
+      "weight": 8,
+      "cuts": [
+        0,
+        0.02,
+        0.04,
+        0.06,
+        0.1
+      ],
+      "direction": "up"
+    },
+    "roe": {
+      "weight": 4,
+      "cuts": [
+        0,
+        0.05,
+        0.08,
+        0.12,
+        0.16
+      ],
+      "direction": "up"
+    },
+    "fcf_years": {
+      "weight": 8,
+      "cuts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction": "up"
+    },
+    "net_margin": {
+      "weight": 4,
+      "cuts": [
+        0,
+        0.03,
+        0.08,
+        0.15,
+        0.25
+      ],
+      "direction": "up"
+    }
+  },
+  "field_aliases": {
+    "income": {
+      "revenue": [
+        "OPERATE_INCOME",
+        "营业额",
+        "营业收入"
+      ],
+      "profit": [
+        "NETPROFIT",
+        "除税后溢利",
+        "年内溢利",
+        "本年利润"
+      ],
+      "parent_profit": [
+        "PARENT_NETPROFIT",
+        "股东应占溢利",
+        "母公司拥有人应占溢利"
+      ],
+      "eps": [
+        "BASIC_EPS",
+        "每股基本盈利",
+        "基本每股收益"
+      ],
+      "pretax": [
+        "TOTAL_PROFIT",
+        "除税前溢利"
+      ],
+      "tax": [
+        "INCOME_TAX",
+        "所得税"
+      ],
+      "interest": [
+        "FE_INTEREST_EXPENSE",
+        "利息支出"
+      ]
+    },
+    "cashflow": {
+      "cfo": [
+        "NETCASH_OPERATE",
+        "经营活动所得现金净额",
+        "经营业务现金净额"
+      ],
+      "capex": [
+        "CONSTRUCT_LONG_ASSET"
+      ]
+    },
+    "balance": {
+      "equity": [
+        "TOTAL_EQUITY",
+        "权益总额",
+        "总权益"
+      ],
+      "parent_equity": [
+        "TOTAL_PARENT_EQUITY",
+        "归属于母公司所有者权益合计",
+        "母公司拥有人应占权益"
+      ],
+      "assets": [
+        "TOTAL_ASSETS",
+        "资产总额"
+      ],
+      "liabilities": [
+        "TOTAL_LIABILITIES",
+        "负债总额"
+      ]
+    }
+  }
+}

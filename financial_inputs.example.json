@@ -1,0 +1,9 @@
+{
+  "market": "a",
+  "symbol": "请填写六位代码",
+  "source_note": "填写年报来源链接、页码、金额单位、币种和股数调整依据",
+  "debt_scope_confirmed": false,
+  "per_share_comparable": false,
+  "hk_unit_currency_confirmed": false,
+  "annual": {}
+}
